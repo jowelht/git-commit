@@ -8,7 +8,7 @@
 
 `git commit -m "Inisial Start"` comment kora
 
-`git branch -M main` main branch create kora
+`git branch -M main` main default branch create kora
 
 `git remote add origin https://github.com/jowelht/git-commit.git` remote path bole dowa
 
@@ -31,6 +31,7 @@
 `git checkout main` branch back jow (main branch)
 
 --
+
 // branch a push kore then tag name dia add kora
 
 `git tag <tag_name>` tag add kora new version er jonno zip file dibe
