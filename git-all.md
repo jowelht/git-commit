@@ -31,13 +31,8 @@
 `git checkout main` branch back jow (main branch)
 
 --
+// branch a push kore then tag name dia add kora
 
-<<<<<<< HEAD
-
-`git tag v1`
-`git tag --list`
-`git push --tags`
-=======
-`git tag v2`
-`git push origin v2`
->>>>>>> main
+`git tag <tag_name>` tag add kora new version er jonno zip file dibe
+`git push origin <tag_name>` tag a push kora 
+`git push --delete origin <tag_name>` tag delete kora
