@@ -32,7 +32,12 @@
 
 --
 
+<<<<<<< HEAD
 
 `git tag v1`
 `git tag --list`
 `git push --tags`
+=======
+`git tag v2`
+`git push origin v2`
+>>>>>>> main
