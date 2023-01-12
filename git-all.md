@@ -31,3 +31,6 @@
 `git checkout main` branch back jow (main branch)
 
 --
+
+`git tag v2`
+`git push origin v2`
