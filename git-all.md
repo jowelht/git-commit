@@ -8,6 +8,10 @@
 
 `git commit -m "Inisial Start"` comment kora
 
+`git branch -M main` main branch create kora
+
+`git remote add origin https://github.com/jowelht/git-commit.git` remote path bole dowa
+
 `git push origin main` main branch a push kora
 
 --
