@@ -35,5 +35,17 @@
 // branch a push kore then tag name dia add kora
 
 `git tag <tag_name>` tag add kora new version er jonno zip file dibe
-`git push origin <tag_name>` tag a push kora 
+`git push origin <tag_name>` tag a push kora
 `git push --delete origin <tag_name>` tag delete kora
+
+--
+`git add -A`
+`git add --all`
+`git add .` sobe gula same kaje kore .. git add kore day
+
+git add theke bade dite hole hole aber `git reset` korte hobe
+
+--
+
+`git commit -m "Inisial Start"` comment kora
+git commit theke aber ager state back jete `git reset HEAD~` dile aber working state cole jabe
