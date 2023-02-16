@@ -14,11 +14,11 @@
 
 `git push origin main` main branch a push kora
 
---
+---
 
 `git clone https://github.com/jowelht/.....`
 
---
+---
 
 `git checkout -b deploy` new branch deploy name er create kora
 
@@ -30,7 +30,7 @@
 
 `git checkout main` branch back jow (main branch)
 
---
+---
 
 // branch a push kore then tag name dia add kora
 
@@ -38,14 +38,50 @@
 `git push origin <tag_name>` tag a push kora
 `git push --delete origin <tag_name>` tag delete kora
 
---
-`git add -A`
-`git add --all`
-`git add .` sobe gula same kaje kore .. git add kore day
+---
 
-git add theke bade dite hole hole aber `git reset` korte hobe
+git reset syntax, usage, and modes
 
---
+- git reset --mixed: The default option for git reset. Updates the current branch tip to the specified commit and unstages any changes by moving them from the staging area back to the working tree.
 
-`git commit -m "Inisial Start"` comment kora
-git commit theke aber ager state back jete `git reset HEAD~` dile aber working state cole jabe
+- git reset --soft: Known as a soft reset, this updates the current branch tip to the specified commit and makes no other changes.
+
+- git reset --hard: Known as a hard reset, this updates the current branch tip to the specified commit, unstages any changes, and also deletes any changes from the working directory.
+
+// Git commit delete push korar por
+
+`git reset --hard 32c2d09`
+
+// HEAD is now at 32c2d09 Change 1
+
+`git status`
+On branch master
+nothing to commit, working tree clean
+
+`git log --oneline`
+
+<!--
+32c2d09 (HEAD -> master) Change 1
+38e2a6e Initial commit
+-->
+
+---
+
+`git reset --hard HEAD~1`
+
+// git a kono commit push kore pre delete kora.
+HEAD~1 dile last one ta delete hobe and HEAD~2 Dile last 2ta delete hobe. same HEAD~6 dile last 6 ta delete hobe
+
+---
+
+`git log`
+
+// Check old git commit a gache ki na check kora.
+
+---
+
+`git push -f`
+
+// Jodi target commit a gale git a porsh kora lagbe
+
+---
